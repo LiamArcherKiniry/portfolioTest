@@ -1177,14 +1177,14 @@ h2 {
 
 .work-link__thumb {
 	position: relative;
-	overflow: hidden;
-	width: 100%;
-	padding-bottom: 100%;
-	border-radius: 8px;
-	transform: scale(1);
-	transform-origin: center;
-	transition: transform .4s;
-	background-color: #2f117f;
+    overflow: hidden;
+    width: 100%;
+    padding: 20%;
+    border-radius: 8px;
+    transform: scale(1);
+    transform-origin: center;
+    transition: transform .4s;
+    background-color: #2f117f;
 }
 
 .work-link__thumb,
@@ -1195,7 +1195,7 @@ h2 {
 }
 
 .work-link__thumb-img {
-	position: absolute;
+	/* position: absolute; */
     top: calc(0%);
 }
 
