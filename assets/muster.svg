@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 552.45 552.45"><defs><style>.cls-1{fill:#fff;stroke-miterlimit:10;}.cls-1,.cls-2,.cls-3{stroke:#2b0c7d;}.cls-2,.cls-3{fill:#eae4dd;}.cls-2,.cls-3,.cls-4{stroke-width:2px;}.cls-2{fill-rule:evenodd;}.cls-4{fill:#2b0c7d;stroke:#1b1464;}
+  #bottomhand{
+  -webkit-animation: bottom 1.5s;
+  -moz-animation:    bottom 1.5s;
+  -o-animation:      bottom 1.5s;
+  animation:         bottom 1.5s;
+  animation-fill-mode: forwards;
+  transform: translate(5%, 0%);
+  
+}
+#tophand{
+  -webkit-animation: top 1.5s;
+  -moz-animation:    top 1.5s;
+  -o-animation:      top 1.5s;
+  animation:         top 1.5s;
+  animation-fill-mode: forwards;
+}
+#phone{
+  -webkit-animation: phone 1.5s;
+  -moz-animation:    phone 1.5s;
+  -o-animation:      phone 1.5s;
+  animation:         phone 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes top {
+  0%   { opacity: 0; }
+  100% { transform: translate(-10%, -10%); }
+}
+@-moz-keyframes top {
+  0%   { opacity: 0; }
+  100% {transform: translate(-10%, -5%); }
+}
+@-o-keyframes top {
+  0%   { opacity: 0; }
+  100% { transform: translate(-10%, -5%); }
+}
+@keyframes top {
+  0%   { opacity: 0; }
+  100% { transform: translate(-10%, -5%); }
+}
+
+@-webkit-keyframes phone {
+  0%   { opacity: 0; }
+  100% { transform: translate(-2%, -10%); }
+}
+@-moz-keyframes phone {
+  0%   { opacity: 0; }
+  100% {transform: translate(20%, -5%); }
+}
+@-o-keyframes phone {
+  0%   { opacity: 0; }
+  100% { transform: translate(-2%, -5%); }
+}
+@keyframes phone {
+  0%   { opacity: 0; }
+  100% { transform: translate(-2%, -5%); }
+}
+
+@-webkit-keyframes bottom {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes bottom {
+  0%   { opacity: 0; }
+  100% {opacity:1;}
+}
+@-o-keyframes bottom {
+  0%   { opacity: 0; }
+  100% { opacity:1; }
+}
+@keyframes bottom {
+  0%   { opacity: 0; }
+  100% { opacity:1; }
+}
+  </style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle class="cls-1" cx="276.22" cy="276.22" r="275.72"/><path class="cls-2" id="tophand" d="M381.26,304.93a9.43,9.43,0,0,1,7.33-7.32c2.4-.4,5.74.18,7.33,2.43,2,2.85-.51,6,0,9.74.44,3.34,3.34,7.78,14.61,12.18,0,0-14.61-7.33-12.17-17l-2.48-9.75a7.49,7.49,0,0,1-4.87-2.43c-2.43-2.44-4.87-9.74-2.43-12.18s4.87-9.75,9.74-9.75h7.32s2.44,4.88,2.44,7.33-4.87,4.87,0,7.33,12.16,12.17,12.16,12.17l12.17,9.74s4.87,21.92-7.32,26.79-39-4.87-43.85-7.32-24.35-4.87-31.66-9.74-9.73-12.18-17.05-12.18-21.91,2.43-31.66-2.43S281.39,290.31,279,287.84s-12.17-19.49,0-17.06a7.6,7.6,0,0,1,4.88,2.44c2.43,2.43-2.44-14.65,19.48-4.87,0,0-2.44-17.05,12.18-9.74s19.48,7.32,34.09,7.32,21.93,2.44,26.8,0,14.61-2.44,19.48,2.44l2.44,2.43h7.32l2.44,4.87s0,4.87-2.44,7.32L430,304.91l36.53,46.28s-29.23,36.53-41.4,31.66c0,0-34.1-46.28-41.41-53.58m-99.85-56s28,24.36,53.58,14.62M305.77,268.4s24.35,21.92,63.32,19.49m-91.64-1.58s40.19,21.91,65.76,12.17"/><path class="cls-2" id="bottomhand" d="M278.85,328.07s-2.44-2.43-4.87-2.43-14.61-2.44-21.92-4.87-14.61-4.88-19.48-7.33-14.66-7.33-24.36-7.33-19.48-2.43-24.35,2.44,7.32,12.18,9.74,12.18,21.92,7.32,26.79,9.74,24.35,14.62,29.22,17S281.28,364.57,291,367s39,2.43,51.14-2.44,24.36-4.88,31.67-9.74l81.62,45.09s36.57-7.33,29.24-36.53l-34.09-14.62-70.14-26.88c-2.69-2.11-8-5.34-13.89-6-12.11-1.34-18.17-2-24.35,0-7.72,2.53-8.79,6.1-17.05,7.33-1.47.21-1.75.15-9.74,0,0,0-4.49-.08-21.92,0-10.1,0-10.57,2.59-12.18,4.87a6.57,6.57,0,0,0,0,7.33c1.75,2.19,4.51,1,9.74,2.43,4.75,1.27,4.69,2.82,9.74,4.87,4.33,1.76,7.82,2,14.65,2.44,7.14.45,8.32-.18,14.62,0,9.79.26,11.86,1.9,19.48,2.43a63.68,63.68,0,0,0,21.92-2.43m-166.91-39.1s21.94,15.92,75.52,28.1"/><g id="phone"><path class="cls-3" d="M176.53,352,131.85,223.05s-5.13-9.52-13.19-10.26l-38.83-2.93s-13.18.74-11.72,8.79L110.6,360s5.13,15.38,16.12,13.92l44.69-5.86S180.93,364.44,176.53,352Z"/><path class="cls-4" d="M176.53,352.71,131.11,223.05s-4.39-11-15.38-11l-38.83-2.2s-8.79.74-5.86,9.53l44,136.25s3.66,17.59,15.38,15.39l42.49-6.59S180.93,364.44,176.53,352.71Z"/></g></g></g></svg>
