@@ -1201,9 +1201,14 @@ h2 {
 
 @media (max-width:786px){
     .work-link__thumb-img {
-        transform: scale(0.5);
+		transform: scale(0.5);
+		
         
-    }
+	}
+	.work-link__thumb-img img {
+		max-width: 70px;
+		height: 100%;
+	}
 }
 
 @media (min-width:768px) {
