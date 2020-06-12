@@ -1209,6 +1209,12 @@ h2 {
 		max-width: 70px;
 		height: 100%;
 	}
+	.work-link__thumb{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-height: 100px;
+	}
 }
 
 @media (min-width:768px) {
