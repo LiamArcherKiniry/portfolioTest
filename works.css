@@ -1032,13 +1032,13 @@ h2 {
 }
 
 .social-links__link span {
-	display: block;
-	width: 20px;
-	height: 20px;
-	transform: scale(.45);
-	transform-origin: center;
-	transition: opacity .3s, transform .3s;
-	border-radius: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    transform: scale(.45);
+    transform-origin: center;
+    transition: opacity .3s, transform .3s;
+    border-radius: 50%;
 }
 
 @media (min-width:1900px) {
@@ -1053,6 +1053,9 @@ h2 {
 	opacity: 1;
 }
 
+
+
+
 .ticker {
 	overflow: hidden;
 	width: calc(100% + 30px);
@@ -1063,7 +1066,7 @@ h2 {
 
 @media (min-width:992px) {
 	.ticker {
-		width: 114%;
+		width: 100%;
 		margin-left: -7%;
 		margin-right: -7%;
 	}
@@ -1084,6 +1087,7 @@ h2 {
 	letter-spacing: -.3px;
 	font-size: 3rem;
 	font-weight: 800;
+	margin: auto;
 }
 
 @media (min-width:768px) {

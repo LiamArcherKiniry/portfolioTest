@@ -223,10 +223,12 @@ html:not(.no-js) [data-aos=rotate-up].in-view{opacity:1;transform:translateZ(0) 
 .page-content{position:relative;}
 .page-footer{
     text-align: center;
-    margin: auto;
+    
+    width: 80vw;
+    margin-left: 20vw;
 }
 @media (min-width:768px){
-.page-footer{width:100%;transform:translateY(75%);visibility:hidden;opacity:0;transition:transform 1s,visibility 1s,opacity 1s;}
+.page-footer{transform:translateY(75%);visibility:hidden;opacity:0;transition:transform 1s,visibility 1s,opacity 1s;}
 .page-footer__inner{height:70px;padding-right:15px;}
 .page-footer--show{transform:translateY(0);visibility:visible;opacity:1;}
 }
@@ -345,7 +347,15 @@ html:not(.no-js) [data-aos=rotate-up].in-view{opacity:1;transform:translateZ(0) 
 @media (min-width:1900px){
 .social-links__link{padding:.25vw;}
 }
-.social-links__link span{display:block;width:20px;height:20px;transform:scale(.45);transform-origin:center;transition:opacity .3s,transform .3s;border-radius:50%;}
+.social-links__link span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    transform: scale(.45);
+    transform-origin: center;
+    transition: opacity .3s, transform .3s;
+    border-radius: 50%;
+}
 @media (min-width:1900px){
 .social-links__link span{width:1vw;height:1vw;}
 }
@@ -612,3 +622,61 @@ pre[class*=language-]{background:#272822;}
 	transform: translateX(-15px)
 }
 /*end of icon*/
+.page-footer {
+    text-align: center;
+    
+}
+@media (min-width:768px) {
+	.page-footer {
+		
+		transform: translateY(75%);
+		visibility: hidden;
+		opacity: 0;
+		transition: transform 1s, visibility 1s, opacity 1s;
+	}
+	.page-footer__inner {
+		height: 70px;
+		padding-right: 15px;
+	}
+	.page-footer--show {
+		transform: translateY(0);
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+@media (min-width:992px) {
+	.page-footer__inner {
+		height: 90px;
+	}
+}
+
+@media (min-width:1200px) {
+	.page-footer__inner {
+		height: 110px;
+	}
+}
+
+@media (min-width:1900px) {
+	.page-footer__inner {
+		height: 7.5vw;
+	}
+}
+@media (min-width:768px) {
+	.page-footer {
+		
+		transform: translateY(75%);
+		visibility: hidden;
+		opacity: 0;
+		transition: transform 1s, visibility 1s, opacity 1s
+	}
+	.page-footer__inner {
+		height: 70px;
+		padding-right: 15px
+	}
+	.page-footer--show {
+		transform: translateY(0);
+		visibility: visible;
+		opacity: 1
+	}
+}
