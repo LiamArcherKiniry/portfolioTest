@@ -8062,11 +8062,7 @@ button.swiper-pagination-bullet {
 	min-height: 250px
 }
 
-@media (min-width:768px) {
-	.page-content--full-height {
-		height: calc(100vh)
-	}
-}
+
 
 @media (min-width:992px) {
 	.page-content--full-height {
@@ -8111,7 +8107,7 @@ button.swiper-pagination-bullet {
 		visibility: visible;
 		opacity: 1;
 		position: relative;
-    	margin-top: 35vh;
+    	/* margin-top: 35vh; */
 	}
 }
 
@@ -8641,7 +8637,9 @@ button.swiper-pagination-bullet {
 	display: block;
 	padding: 0;
 	border: 0;
-	background-color: transparent
+	background-color: transparent;
+	margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 @media (min-width:1900px) {
@@ -8653,9 +8651,7 @@ button.swiper-pagination-bullet {
 	}
 }
 
-.profile-link:focus {
 
-}
 
 .profile-link__icon {
 	position: relative
@@ -10275,7 +10271,7 @@ svg:not(:root){overflow:hidden;}
 .page-header{position:fixed;top:0;left:0;z-index:9000;width:100%;height:60px;border-bottom:1px solid var(--theme-primary);background-color:var(--theme-bg);}
 
 @media (min-width:768px){
-.page-header{width:75px;height:100vh;border-bottom:0;border-right:1px solid var(--theme-primary);transform:translateX(-75px) translateZ(0);visibility:hidden;opacity:0;transition:background-color 0s .5s,transform .5s cubic-bezier(.4,.26,0,1),visibility .5s cubic-bezier(.4,.26,0,1),opacity .5s cubic-bezier(.4,.26,0,1);}
+.page-header{width:75px;height:100%;border-bottom:0;border-right:1px solid var(--theme-primary);transform:translateX(-75px) translateZ(0);visibility:hidden;opacity:0;transition:background-color 0s .5s,transform .5s cubic-bezier(.4,.26,0,1),visibility .5s cubic-bezier(.4,.26,0,1),opacity .5s cubic-bezier(.4,.26,0,1);}
 .page-header__inner{flex-direction:column;}
 .page-header--show{transform:translateY(0);visibility:visible;opacity:1;}
 .page-header__logo{margin-top:25px;}
@@ -10369,9 +10365,7 @@ h2{font-size:3rem;}
     }
     .page-content{position:relative;}
     .page-content--full-height{min-height:250px;}
-    @media (min-width:768px){
-    .page-content--full-height{height:calc(100vh);}
-    }
+ 
     @media (min-width:992px){
     .page-content--full-height{height:calc(100vh - 200px);}
     }
