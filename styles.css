@@ -8111,7 +8111,7 @@ button.swiper-pagination-bullet {
 		visibility: visible;
 		opacity: 1;
 		position: relative;
-    	padding-top: 45vh;
+    	margin-top: 35vh;
 	}
 }
 
@@ -10339,7 +10339,7 @@ h2{font-size:3rem;}
 }
 .page-footer{
     text-align: center;
-    margin: auto;
+    width: 100%;
 }
 /*! CSS Used keyframes */
 @keyframes flap{0%{transform:rotate(-12.5deg);}to{transform:rotate(12.5deg);}}
