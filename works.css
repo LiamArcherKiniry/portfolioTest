@@ -416,7 +416,7 @@ h2 {
 @media (min-width:768px) {
 	.page-header {
 		width: 75px;
-		height: 100vh;
+		height: 100%;
 		border-bottom: 0;
 		border-right: 1px solid var(--theme-primary);
 		transform: translateX(-75px) translateZ(0);
