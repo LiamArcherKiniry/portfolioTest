@@ -1041,12 +1041,6 @@ h2 {
     border-radius: 50%;
 }
 
-@media (min-width:1900px) {
-	.social-links__link span {
-		width: 1vw;
-		height: 1vw;
-	}
-}
 
 .social-links__link:hover span {
 	transform: scale(1);
