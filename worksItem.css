@@ -356,9 +356,7 @@ html:not(.no-js) [data-aos=rotate-up].in-view{opacity:1;transform:translateZ(0) 
     transition: opacity .3s, transform .3s;
     border-radius: 50%;
 }
-@media (min-width:1900px){
-.social-links__link span{width:1vw;height:1vw;}
-}
+
 .social-links__link:hover span{transform:scale(1);opacity:1;}
 .circle-text{position:absolute;top:0;right:0;z-index:1;width:100px;height:100px;display:flex;align-items:center;justify-content:center;transform:translate3d(-30%,-80%,0);}
 @media (min-width:1200px){
